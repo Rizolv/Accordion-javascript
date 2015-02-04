@@ -1,0 +1,24 @@
+#pane h3{
+    border: solid 1px #666;
+    padding: 10px 5px 10px 25px;
+    background: #AAA url("arrow-down-01-16.png") no-repeat 5px center;
+    color  : #fff;
+    cursor : pointer;
+    font-weight: bold;
+    margin: 1px auto;
+}
+#pane h3:hover{
+    color : #666;
+}
+#pane h3#pane-current{
+    background: #DDD url("arrow-up-01-16.png") no-repeat 5px center;
+}
+#pane div{
+    margin : 0px;
+    padding: 0px;
+    background : #EEE;
+}
+#pane div p {
+    padding: 10px 20px;
+    color : #666;
+}
